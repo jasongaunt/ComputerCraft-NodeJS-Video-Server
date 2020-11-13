@@ -1,0 +1,6 @@
+{
+	"server_base_url": "",
+	"https_enabled": true,
+	"service_listen_port": 8080,
+	"input_poll_delay_ms": 125
+}
