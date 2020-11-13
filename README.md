@@ -15,7 +15,7 @@ Also be aware, there is **no sound** from this whatsoever. I know of no way to s
 
 ### NodeJS server
 * Any recent version of NodeJS should work, I wrote this using v12.18.3
-* A good CPU (I tested this on a dual core virtual machine on an Intel Xeon E5-2643 v2 CPU
+* A good CPU (I tested this on a dual core virtual machine on an Intel Xeon E5-2643 v2 CPU)
 
 ### Misc / recommended
 * ffmpeg to convert video to still images on the fly
@@ -26,7 +26,7 @@ Also be aware, there is **no sound** from this whatsoever. I know of no way to s
 2. run `npm install` to download all the libraries required
 
 ## Configuration
-1. Copy `config.SAMPLE.json` to `config.json`
+1. Copy `config.EXAMPLE.json` to `config.json`
 2. Edit the file and fill in the following fields;
 
 * **server_base_url**: The URL or IP address of your NodeJS server or HTTPS / SSL termination web server __without__ http:// or https:// at the start ie. `my.awesomeserver.com/optional/paths`
