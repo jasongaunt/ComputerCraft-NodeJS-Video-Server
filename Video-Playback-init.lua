@@ -79,7 +79,9 @@ end
 if fs.exists("startup.lua") == true then shell.run("rm startup.lua") end
 local startupFile = fs.open("startup.lua", "w")
 startupFile.write("if fs.exists(\""..initScriptName.."\") == false then shell.run(\"wget "..baseURL..initScriptName.."\") end\n")
-startupFile.write("shell.run(\""..initScriptName.."\")")
+startupFile.write("shell.run(\""..initScriptName.."\")\n")
+startupFile.write("sleep(5.0)\n")
+startupFile.write("os.reboot()")
 startupFile.close()
 
 -- Set our computer label

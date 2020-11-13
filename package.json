@@ -1,0 +1,30 @@
+{
+  "name": "computercraft-nodejs-video-server",
+  "version": "1.0.0",
+  "description": "Regularly parses input.jpg through a ditherer and sends that to any connected ComputerCraft terminal",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "console-stamp": "^0.2.9",
+    "express": "^4.17.1",
+    "image-q": "^2.1.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasongaunt/ComputerCraft-NodeJS-Video-Server.git"
+  },
+  "keywords": [
+    "ComputerCraft"
+  ],
+  "author": "Jason Bhalla-Gaunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasongaunt/ComputerCraft-NodeJS-Video-Server/issues"
+  },
+  "homepage": "https://github.com/jasongaunt/ComputerCraft-NodeJS-Video-Server#readme"
+}
